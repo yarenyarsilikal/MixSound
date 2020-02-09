@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="32dp"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+
+    <ImageButton
+        android:id="@+id/btnRecord"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:background="@drawable/abc_vector_test"
+        android:minWidth="200dp"
+        android:minHeight="200dp"
+        android:src="?selectableItemBackground" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="32dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center">
+
+        <ImageButton
+            android:id="@+id/btnFast"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:background="@drawable/abc_vector_test"
+            android:minWidth="100dp"
+            android:minHeight="100dp"
+            android:src="?selectableItemBackground" />
+
+        <ImageButton
+            android:id="@+id/btnSlow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:background="@drawable/abc_vector_test"
+            android:minWidth="100dp"
+            android:minHeight="100dp"
+            android:src="?selectableItemBackground" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center">
+
+        <ImageButton
+            android:id="@+id/btnChipmunk"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:background="@drawable/abc_vector_test"
+            android:minWidth="100dp"
+            android:minHeight="100dp"
+            android:src="?selectableItemBackground" />
+
+        <ImageButton
+            android:id="@+id/btnDarthVader"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:background="@drawable/abc_vector_test"
+            android:minWidth="100dp"
+            android:minHeight="100dp"
+            android:src="?selectableItemBackground" />
+    </LinearLayout>
+
+</LinearLayout>

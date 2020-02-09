@@ -1,0 +1,2 @@
+include ':app', ':mixsound'
+rootProject.name='MixSound'
