@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">MixSound</string>
+    <string name="record_voice_text">Click to record your voice!</string>
+    <string name="choose_a_voice_mixer">Choose a voice mixer!</string>
 </resources>
